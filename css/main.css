@@ -1,0 +1,39 @@
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.error {
+    background-color: lightcoral;
+    color: red; 
+    border: .2rem red solid;
+    padding: .4rem;
+
+}
+
+.apiLoading {
+    border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: loader 2s linear infinite;
+
+}
+
+
+
+@keyframes loader {
+0%{
+    transform: rotate(0deg)
+}
+
+100% {
+    transform: rotate(360deg);
+}
+
+}
